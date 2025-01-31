@@ -1,0 +1,2 @@
+Invoking command in '/home/purno/Workspaces/ros2_py_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/purno/Workspaces/ros2_py_ws/build/udemy_ros2_pkg -- -j8 -l8
+Invoked command in '/home/purno/Workspaces/ros2_py_ws/build/udemy_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/purno/Workspaces/ros2_py_ws/build/udemy_ros2_pkg -- -j8 -l8

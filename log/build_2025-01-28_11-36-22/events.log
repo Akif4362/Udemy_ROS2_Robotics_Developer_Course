@@ -1,0 +1,238 @@
+[0.000000] (-) TimerEvent: {}
+[0.000151] (udemy_ros2_pkg) JobQueued: {'identifier': 'udemy_ros2_pkg', 'dependencies': OrderedDict()}
+[0.000360] (udemy_ros2_pkg) JobStarted: {'identifier': 'udemy_ros2_pkg'}
+[0.008631] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'cmake'}
+[0.009317] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'build'}
+[0.010059] (udemy_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/purno/Workspaces/ros2_py_ws/build/udemy_ros2_pkg', '--', '-j8', '-l8'], 'cwd': '/home/purno/Workspaces/ros2_py_ws/build/udemy_ros2_pkg', 'env': OrderedDict([('USER', 'purno'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/purno'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1570'), ('SYSTEMD_EXEC_PID', '1916'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4173'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'purno'), ('JOURNAL_STREAM', '8:15632'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'purno'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/purno-ubuntu:@/tmp/.ICE-unix/1727,unix/purno-ubuntu:/tmp/.ICE-unix/1727'), ('INVOCATION_ID', '70c2869610224c1dba459615d42b0d5c'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DYN502'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/purno/Workspaces/ros2_py_ws/build/udemy_ros2_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.043508] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099293] (-) TimerEvent: {}
+[0.185673] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.194674] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.194872] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.196548] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.199414] (-) TimerEvent: {}
+[0.200188] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.234436] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.262548] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.299525] (-) TimerEvent: {}
+[0.399934] (-) TimerEvent: {}
+[0.500284] (-) TimerEvent: {}
+[0.600586] (-) TimerEvent: {}
+[0.673881] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.700734] (-) TimerEvent: {}
+[0.801051] (-) TimerEvent: {}
+[0.901434] (-) TimerEvent: {}
+[0.990963] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.001557] (-) TimerEvent: {}
+[1.101874] (-) TimerEvent: {}
+[1.202310] (-) TimerEvent: {}
+[1.302622] (-) TimerEvent: {}
+[1.403050] (-) TimerEvent: {}
+[1.450475] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.476669] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.502728] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.502934] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.503010] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.503077] (-) TimerEvent: {}
+[1.561620] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.574633] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.575286] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.575715] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.577568] (udemy_ros2_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.580031] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.603214] (-) TimerEvent: {}
+[1.625363] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.641223] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/purno/Workspaces/ros2_py_ws/build/udemy_ros2_pkg\n'}
+[1.670292] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_generator_c\x1b[0m\n'}
+[1.683345] (udemy_ros2_pkg) StdoutLine: {'line': b'[  2%] Built target udemy_ros2_pkg__cpp\n'}
+[1.688068] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 12%] Built target udemy_ros2_pkg__rosidl_generator_c\n'}
+[1.698847] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_udemy_ros2_pkg\n'}
+[1.699266] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_scripts\n'}
+[1.703755] (-) TimerEvent: {}
+[1.704703] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.705811] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.707740] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.708245] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.708560] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_c\x1b[0m\n'}
+[1.709520] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.748066] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 28%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c\n'}
+[1.751734] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 33%] Built target udemy_ros2_pkg__rosidl_typesupport_c\n'}
+[1.752038] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 53%] Built target udemy_ros2_pkg__rosidl_typesupport_cpp\n'}
+[1.752221] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 53%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_cpp\n'}
+[1.752855] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 74%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp\n'}
+[1.753086] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 74%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c\n'}
+[1.784198] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 74%] Built target udemy_ros2_pkg\n'}
+[1.803873] (-) TimerEvent: {}
+[1.811517] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 76%] Built target udemy_ros2_pkg__py\n'}
+[1.825896] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_generator_py\x1b[0m\n'}
+[1.846634] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 84%] Built target udemy_ros2_pkg__rosidl_generator_py\n'}
+[1.867149] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.867494] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.867722] (udemy_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target udemy_ros2_pkg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.886916] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 89%] Built target udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext\n'}
+[1.888729] (udemy_ros2_pkg) StdoutLine: {'line': b'[ 94%] Built target udemy_ros2_pkg__rosidl_typesupport_c__pyext\n'}
+[1.889727] (udemy_ros2_pkg) StdoutLine: {'line': b'[100%] Built target udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.903969] (-) TimerEvent: {}
+[2.004281] (-) TimerEvent: {}
+[2.050148] (udemy_ros2_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.051769] (udemy_ros2_pkg) StdoutLine: {'line': b'writing udemy_ros2_pkg.egg-info/PKG-INFO\n'}
+[2.052205] (udemy_ros2_pkg) StdoutLine: {'line': b'writing dependency_links to udemy_ros2_pkg.egg-info/dependency_links.txt\n'}
+[2.052474] (udemy_ros2_pkg) StdoutLine: {'line': b'writing top-level names to udemy_ros2_pkg.egg-info/top_level.txt\n'}
+[2.055339] (udemy_ros2_pkg) StdoutLine: {'line': b"reading manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'\n"}
+[2.055970] (udemy_ros2_pkg) StdoutLine: {'line': b"writing manifest file 'udemy_ros2_pkg.egg-info/SOURCES.txt'\n"}
+[2.058665] (udemy_ros2_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.059692] (udemy_ros2_pkg) StdoutLine: {'line': b'writing scripts.egg-info/PKG-INFO\n'}
+[2.059970] (udemy_ros2_pkg) StdoutLine: {'line': b'writing dependency_links to scripts.egg-info/dependency_links.txt\n'}
+[2.060133] (udemy_ros2_pkg) StdoutLine: {'line': b'writing top-level names to scripts.egg-info/top_level.txt\n'}
+[2.062849] (udemy_ros2_pkg) StdoutLine: {'line': b"reading manifest file 'scripts.egg-info/SOURCES.txt'\n"}
+[2.063588] (udemy_ros2_pkg) StdoutLine: {'line': b"writing manifest file 'scripts.egg-info/SOURCES.txt'\n"}
+[2.101788] (udemy_ros2_pkg) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_udemy_ros2_pkg_egg\n'}
+[2.104629] (-) TimerEvent: {}
+[2.112376] (udemy_ros2_pkg) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_scripts_egg\n'}
+[2.129480] (udemy_ros2_pkg) CommandEnded: {'returncode': 0}
+[2.130695] (udemy_ros2_pkg) JobProgress: {'identifier': 'udemy_ros2_pkg', 'progress': 'install'}
+[2.142567] (udemy_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/purno/Workspaces/ros2_py_ws/build/udemy_ros2_pkg'], 'cwd': '/home/purno/Workspaces/ros2_py_ws/build/udemy_ros2_pkg', 'env': OrderedDict([('USER', 'purno'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/purno'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1570'), ('SYSTEMD_EXEC_PID', '1916'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4173'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'purno'), ('JOURNAL_STREAM', '8:15632'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'purno'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/purno-ubuntu:@/tmp/.ICE-unix/1727,unix/purno-ubuntu:/tmp/.ICE-unix/1727'), ('INVOCATION_ID', '70c2869610224c1dba459615d42b0d5c'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DYN502'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/purno/Workspaces/ros2_py_ws/build/udemy_ros2_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.155434] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.156370] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.156785] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/rosidl_interfaces/udemy_ros2_pkg\n'}
+[2.157716] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.157981] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__functions.h\n'}
+[2.158210] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__struct.h\n'}
+[2.158472] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__type_support.h\n'}
+[2.158687] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__functions.h\n'}
+[2.158936] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__struct.h\n'}
+[2.159193] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__type_support.h\n'}
+[2.159441] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/odd_even_check.h\n'}
+[2.159679] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/turn_camera.h\n'}
+[2.160103] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/library_path.sh\n'}
+[2.160413] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/library_path.dsv\n'}
+[2.161310] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.161571] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_c.h\n'}
+[2.161750] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_fastrtps_c.h\n'}
+[2.162439] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.162708] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_introspection_c.h\n'}
+[2.162965] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_introspection_c.h\n'}
+[2.163724] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.163993] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__builder.hpp\n'}
+[2.164259] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__struct.hpp\n'}
+[2.164561] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__traits.hpp\n'}
+[2.164880] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__type_support.hpp\n'}
+[2.165148] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__builder.hpp\n'}
+[2.165427] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__struct.hpp\n'}
+[2.165668] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__traits.hpp\n'}
+[2.165966] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__type_support.hpp\n'}
+[2.166246] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/odd_even_check.hpp\n'}
+[2.166461] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/turn_camera.hpp\n'}
+[2.167406] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.167740] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.167994] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.168642] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.168909] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/include/udemy_ros2_pkg/udemy_ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.169295] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.sh\n'}
+[2.169600] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.dsv\n'}
+[2.170210] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.170415] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.170653] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.170922] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.172057] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/__init__.py\n'}
+[2.172280] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_c.c\n'}
+[2.172501] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.172701] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/_udemy_ros2_pkg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.173001] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/libudemy_ros2_pkg__rosidl_generator_py.so\n'}
+[2.173242] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/__init__.py\n'}
+[2.173476] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_odd_even_check.py\n'}
+[2.173706] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_odd_even_check_s.c\n'}
+[2.173951] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_turn_camera.py\n'}
+[2.174182] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv/_turn_camera_s.c\n'}
+[2.174406] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.174569] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.174782] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.175285] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.175742] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.176221] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/udemy_ros2_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.176557] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/OddEvenCheck.idl\n'}
+[2.176868] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/TurnCamera.idl\n'}
+[2.177159] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/OddEvenCheck.srv\n'}
+[2.177460] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/OddEvenCheck_Request.msg\n'}
+[2.177750] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/OddEvenCheck_Response.msg\n'}
+[2.178053] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/TurnCamera.srv\n'}
+[2.178349] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/TurnCamera_Request.msg\n'}
+[2.178663] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/srv/TurnCamera_Response.msg\n'}
+[2.179303] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.179548] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.179821] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.180140] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.180959] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/__init__.py\n'}
+[2.181195] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/publisher.py\n'}
+[2.181429] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/rpm_pub.py\n'}
+[2.181712] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/service_client.py\n'}
+[2.182094] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/service_server.py\n'}
+[2.182321] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/speed_calc.py\n'}
+[2.182520] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/subscriber.py\n'}
+[2.182726] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/turn_camera_server.py\n'}
+[2.198027] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher.py\n'}
+[2.198391] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/subscriber.py\n'}
+[2.198553] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/rpm_pub.py\n'}
+[2.198771] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/speed_calc.py\n'}
+[2.198975] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/service_server.py\n'}
+[2.199170] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/service_client.py\n'}
+[2.199378] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/turn_camera_server.py\n'}
+[2.204781] (-) TimerEvent: {}
+[2.212382] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//launch/rpm_node.launch.py\n'}
+[2.212582] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg//launch/speed_project.launch.py\n'}
+[2.212759] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg\n'}
+[2.212898] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/udemy_ros2_pkg\n'}
+[2.213042] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.sh\n'}
+[2.213233] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.dsv\n'}
+[2.213466] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.sh\n'}
+[2.213630] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.dsv\n'}
+[2.213861] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.bash\n'}
+[2.214087] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.sh\n'}
+[2.214377] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.zsh\n'}
+[2.214591] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.dsv\n'}
+[2.214784] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Symlinking: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv\n'}
+[2.226433] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/packages/udemy_ros2_pkg\n'}
+[2.226637] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/rosidl_cmake-extras.cmake\n'}
+[2.226769] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.227039] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.227196] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.227352] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.227533] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.227812] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.228065] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig.cmake\n'}
+[2.228245] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig-version.cmake\n'}
+[2.228437] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.xml\n'}
+[2.228756] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_generator_c.so\n'}
+[2.229251] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_fastrtps_c.so\n'}
+[2.229659] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_introspection_c.so\n'}
+[2.230187] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_c.so\n'}
+[2.230701] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.231208] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_introspection_cpp.so\n'}
+[2.231765] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_typesupport_cpp.so\n'}
+[2.276570] (udemy_ros2_pkg) StdoutLine: {'line': b"Listing '/home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg'...\n"}
+[2.276819] (udemy_ros2_pkg) StdoutLine: {'line': b"Compiling '/home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/__init__.py'...\n"}
+[2.276946] (udemy_ros2_pkg) StdoutLine: {'line': b"Listing '/home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/udemy_ros2_pkg/srv'...\n"}
+[2.284920] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/libudemy_ros2_pkg__rosidl_generator_py.so\n'}
+[2.304893] (-) TimerEvent: {}
+[2.341705] (udemy_ros2_pkg) StdoutLine: {'line': b"Listing '/home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts'...\n"}
+[2.341934] (udemy_ros2_pkg) StdoutLine: {'line': b"Compiling '/home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/local/lib/python3.10/dist-packages/scripts/turn_camera_server.py'...\n"}
+[2.348376] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_cExport.cmake\n'}
+[2.348867] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.349077] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.349220] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.349413] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.349563] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.349695] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_cExport.cmake\n'}
+[2.349899] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.350089] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_cppExport.cmake\n'}
+[2.350282] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.350462] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.350583] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.350709] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.350870] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_cppExport.cmake\n'}
+[2.351049] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.351164] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_pyExport.cmake\n'}
+[2.351282] (udemy_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/purno/Workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/export_udemy_ros2_pkg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.354648] (udemy_ros2_pkg) CommandEnded: {'returncode': 0}
+[2.391717] (udemy_ros2_pkg) JobEnded: {'identifier': 'udemy_ros2_pkg', 'rc': 0}
+[2.392651] (-) EventReactorShutdown: {}

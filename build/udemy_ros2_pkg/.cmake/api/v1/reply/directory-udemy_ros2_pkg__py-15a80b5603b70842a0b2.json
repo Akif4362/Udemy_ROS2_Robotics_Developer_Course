@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "udemy_ros2_pkg__py",
+		"source" : "/home/purno/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/udemy_ros2_pkg__py"
+	}
+}

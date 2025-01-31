@@ -1,0 +1,1 @@
+/home/purno/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_typesupport_fastrtps_c/udemy_ros2_pkg/action/detail/navigate__rosidl_typesupport_fastrtps_c.h

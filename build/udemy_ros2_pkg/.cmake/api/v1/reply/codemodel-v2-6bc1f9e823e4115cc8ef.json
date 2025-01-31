@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9d1f0db1b3dfa6d11dfb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "udemy_ros2_pkg__py",
+					"jsonFile" : "directory-udemy_ros2_pkg__py-15a80b5603b70842a0b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/purno/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/udemy_ros2_pkg__py",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "udemy_ros2_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_scripts_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_scripts_egg-f5cdccb58609423ca2ad.json",
+					"name" : "ament_cmake_python_build_scripts_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_udemy_ros2_pkg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_udemy_ros2_pkg_egg-ab6aa27e9ec508e6fdb0.json",
+					"name" : "ament_cmake_python_build_udemy_ros2_pkg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_scripts::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_scripts-067e8dedbc6a9c0e0788.json",
+					"name" : "ament_cmake_python_symlink_scripts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_udemy_ros2_pkg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_udemy_ros2_pkg-921c6598585c475ea798.json",
+					"name" : "ament_cmake_python_symlink_udemy_ros2_pkg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udemy_ros2_pkg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udemy_ros2_pkg-ed42f69884e59cce8704.json",
+					"name" : "udemy_ros2_pkg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udemy_ros2_pkg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udemy_ros2_pkg__cpp-6e3cea34176244b515d1.json",
+					"name" : "udemy_ros2_pkg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "udemy_ros2_pkg__py::@450fc3c1234015f84db0",
+					"jsonFile" : "target-udemy_ros2_pkg__py-fb0aec86c864f538ff56.json",
+					"name" : "udemy_ros2_pkg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udemy_ros2_pkg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udemy_ros2_pkg__rosidl_generator_c-bcb547ad5b125bc5d5e5.json",
+					"name" : "udemy_ros2_pkg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udemy_ros2_pkg__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udemy_ros2_pkg__rosidl_generator_py-922aded8d3b5f10c7746.json",
+					"name" : "udemy_ros2_pkg__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udemy_ros2_pkg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udemy_ros2_pkg__rosidl_typesupport_c-cc864b795c76903f821a.json",
+					"name" : "udemy_ros2_pkg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udemy_ros2_pkg__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udemy_ros2_pkg__rosidl_typesupport_c__pyext-74c608c6141575634ffb.json",
+					"name" : "udemy_ros2_pkg__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udemy_ros2_pkg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udemy_ros2_pkg__rosidl_typesupport_cpp-9f9b856acd644bae5811.json",
+					"name" : "udemy_ros2_pkg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udemy_ros2_pkg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udemy_ros2_pkg__rosidl_typesupport_fastrtps_c-76bd55b6c9dca78cc86f.json",
+					"name" : "udemy_ros2_pkg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext-0ce4a802150e709cb4b8.json",
+					"name" : "udemy_ros2_pkg__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp-58998b5ec6df43722fac.json",
+					"name" : "udemy_ros2_pkg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udemy_ros2_pkg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udemy_ros2_pkg__rosidl_typesupport_introspection_c-b4679be601a4c2a0e77c.json",
+					"name" : "udemy_ros2_pkg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext-d70c842a27a80b2df70f.json",
+					"name" : "udemy_ros2_pkg__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udemy_ros2_pkg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udemy_ros2_pkg__rosidl_typesupport_introspection_cpp-7ea579e78a879ca44024.json",
+					"name" : "udemy_ros2_pkg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "udemy_ros2_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-udemy_ros2_pkg_uninstall-b499b80847a9b896d1f2.json",
+					"name" : "udemy_ros2_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9d700d74436875c00696.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/purno/Workspaces/ros2_py_ws/build/udemy_ros2_pkg",
+		"source" : "/home/purno/Workspaces/ros2_py_ws/src/udemy_ros2_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

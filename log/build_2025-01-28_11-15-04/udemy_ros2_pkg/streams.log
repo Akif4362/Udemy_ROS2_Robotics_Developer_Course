@@ -1,0 +1,56 @@
+[0.013s] Invoking command in '/home/purno/Workspaces/ros2_py_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/purno/Workspaces/ros2_py_ws/build/udemy_ros2_pkg -- -j8 -l8
+[0.062s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.218s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.233s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.234s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.236s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.241s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.282s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.321s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.630s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.630s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.630s]   udemy_ros2_pkg --arguments-file
+[0.630s]   /home/purno/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_adapter__arguments__udemy_ros2_pkg.json
+[0.630s]   --output-dir
+[0.630s]   /home/purno/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg
+[0.631s]   --output-file
+[0.631s]   /home/purno/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/rosidl_adapter/udemy_ros2_pkg.idls)
+[0.631s]   returned error code 1:
+[0.631s] 
+[0.631s]   Error processing 'sensor_msgs/Image Image' of
+[0.631s]   'udemy_ros2_pkg/TurnCamera_Response': ''Image' is an invalid field name.
+[0.631s]   It should have the pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[0.632s] 
+[0.632s]   Traceback (most recent call last):
+[0.632s] 
+[0.632s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.632s]       return _run_code(code, main_globals, None,
+[0.632s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.632s]       exec(code, run_globals)
+[0.632s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.633s]       sys.exit(main())
+[0.633s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.633s]       abs_idl_file = convert_to_idl(
+[0.633s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.633s]       return convert_srv_to_idl(
+[0.633s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.633s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.633s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 863, in parse_service_string
+[0.634s]       response_message = parse_message_string(
+[0.634s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string
+[0.634s]       fields.append(Field(
+[0.634s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 354, in __init__
+[0.634s]       raise NameError(
+[0.634s] 
+[0.634s]   NameError: 'Image' is an invalid field name.  It should have the pattern
+[0.635s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[0.635s] 
+[0.635s] Call Stack (most recent call first):
+[0.635s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.635s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.635s] 
+[0.635s] [0m
+[0.635s] -- Configuring incomplete, errors occurred!
+[0.636s] See also "/home/purno/Workspaces/ros2_py_ws/build/udemy_ros2_pkg/CMakeFiles/CMakeOutput.log".
+[0.639s] gmake: *** [Makefile:775: cmake_check_build_system] Error 1
+[0.643s] Invoked command in '/home/purno/Workspaces/ros2_py_ws/build/udemy_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/purno/Workspaces/ros2_py_ws/build/udemy_ros2_pkg -- -j8 -l8
